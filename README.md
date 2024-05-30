@@ -17,7 +17,7 @@ If the environment/platform only allows to work inside scripts, For example: Pla
 ```javascript
 var convaiScript = document.createElement('script');
 var scriptLoaded = false;
-convaiScript.src = "https://Conv-AI.github.io/web-sdk-cdn/index.js";
+convaiScript.src = "https://Conv-AI.github.io/web-sdk-cdn/convai-client.js";
 document.getElementsByTagName('head')[0].appendChild(convaiScript);
 var ConvaiNpc = pc.createScript('convaiNpc');
 ```
